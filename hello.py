@@ -1,6 +1,6 @@
 from selenium import webdriver
 from time import sleep 
-driver = webdriver.Chrome(executable_path="/Users/jason/Downloads/chromedriver 4")
+driver = webdriver.Chrome(executable_path="-")
 driver.get("https://instagram.com")
 sleep(4)
 driver.find_element_by_xpath(("//input[@name=\"username\"]"))\
